@@ -6,7 +6,7 @@ import kotlin.random.Random
 
 class MainActivityViewModel(application: Application) : AndroidViewModel(application) {
 
-    var diceRollValue = R.drawable.dice_1
+    var diceRollValue = R.drawable.empty_dice
 
     fun diceRollAttempt (): Int {
         val randomInt = Random.nextInt(6) + 1
